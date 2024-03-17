@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.project{
+    margin: 3% 1%;
+    background-color: rgb(48, 48, 48);
+    padding: 2%;
+    color: white;
+    border-radius: 25px;
+}
+
+img{
+    border-radius: 25px;
+}
+
+img:hover{
+    cursor: pointer;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 4vw;
+}
+
+.footer {
+    width: 100%;
+    padding: 1% 0%;
+    font-size: 1vw;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+h3{
+    text-align: center;
+    font-size: 2vw;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.buttons{
+    display: block;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 1%;
+}
